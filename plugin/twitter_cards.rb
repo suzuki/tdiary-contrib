@@ -14,8 +14,6 @@
 
 def twitter_cards_description
 
-	@twitter_cards = []
-
 	section_index = @cgi.params['p'][0]
 	# section_index = "1"
 	if @mode == 'day' and section_index
